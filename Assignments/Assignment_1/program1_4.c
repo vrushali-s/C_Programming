@@ -27,8 +27,8 @@ BOOL Check(int iNo)
     {
         return FALSE;
     }
-    
 }
+
 int main()
 {
     int iValue = 0;
