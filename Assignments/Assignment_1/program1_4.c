@@ -17,7 +17,7 @@ typedef int BOOL;
 //
 ////////////////////////////////////////////////////////////
 
-int Check(int iNo)
+BOOL Check(int iNo)
 {
     if((iNo % 5) == 0)
     {
