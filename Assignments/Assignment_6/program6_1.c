@@ -13,17 +13,19 @@ void CalculateElectricityBill(int iUnits)
     if((iUnits > 0) && (iUnits <= 100))
     {
         fBill = iUnits * 5;
-        printf("Bill is %d rupees\n", fBill);
+        printf("Bill is %.2f rupees\n", fBill);
     }
     else if((iUnits >= 101) && (iUnits <= 200))
     {
-        fBill = iUnits * 7;
-        printf("Bill is %d rupees\n", fBill);
+        float fTemp = iUnits - 100;
+        fBill = (fTemp * 7) + (100 * 5);
+        printf("Bill is %.2f rupees\n", fBill);
     }
     else
     {
-        fBill = iUnits * 10;
-        printf("Bill is %d rupees\n", fBill);
+        float fTemp = iUnits - 200;
+        fBill = (fTemp * 10) + (100 * 7) + (100 * 5);
+        printf("Bill is %.2f rupees\n", fBill);
     }
 }
 

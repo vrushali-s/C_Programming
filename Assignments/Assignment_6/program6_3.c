@@ -14,19 +14,19 @@ void CalculateDiscount(float fAmount)
     if(fAmount < 1000)
     {
         fFinalAmount = fAmount;
-        printf("Payable Amount = %f", fFinalAmount);
+        printf("Payable Amount = %.2f", fFinalAmount);
     }
     else if((fAmount >= 1000) && (fAmount < 5000))
     {
-        fDiscount = fAmount * (10/100);
+        fDiscount = fAmount * 0.1;
         fFinalAmount = fAmount - fDiscount;
-        printf("Payable Amount = %f", fFinalAmount);
+        printf("Payable Amount = %.2f", fFinalAmount);
     }
     else if(fAmount >= 5000)
     {
-        fDiscount = fAmount * (20/100);
+        fDiscount = fAmount * 0.2;
         fFinalAmount = fAmount - fDiscount;
-        printf("Payable Amount = %f", fFinalAmount);
+        printf("Payable Amount = %.2f", fFinalAmount);
     }
 }
 
