@@ -1,6 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/////////////////////////////////////////////////
+//
+//  Function Name   : CountDiff
+//  Description     : Find difference between sum of even digits
+//                    and sum of odd digits
+//  Input           : Integer
+//  Output          : Integer
+//  Author          : Vrushali Prakash Shinde
+//  Date            : 03/11/2026
+//
+////////////////////////////////////////////////
+
 int CountDiff(int iNo)
 {
     int iDigit = 0, iEvenSum = 0, iOddSum = 0, iResult = 0;

@@ -1,6 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/////////////////////////////////////////////////
+//
+//  Function Name   : CountRange
+//  Description     : Count digits between 3 & 7
+//                    in the number
+//  Input           : Integer
+//  Output          : Integer
+//  Author          : Vrushali Prakash Shinde
+//  Date            : 03/11/2026
+//
+////////////////////////////////////////////////
+
 int CountRange(int iNo)
 {
     int iDigit =  0, iCount = 0;

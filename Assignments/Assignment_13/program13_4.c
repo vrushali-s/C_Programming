@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/////////////////////////////////////////////////
+//
+//  Function Name   : MultiplyDigits
+//  Description     : Multiply digits in the number
+//  Input           : Integer
+//  Output          : Integer
+//  Author          : Vrushali Prakash Shinde
+//  Date            : 03/11/2026
+//
+////////////////////////////////////////////////
+
 int MultiplyDigits(int iNo)
 {
     int iDigit =  0, iMul = 0;
