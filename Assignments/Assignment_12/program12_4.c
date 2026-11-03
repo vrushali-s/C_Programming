@@ -32,7 +32,6 @@ int CountFour(int iNo)
 
         iNo = iNo/10;
     }
-
     return iFreq;
 }
 

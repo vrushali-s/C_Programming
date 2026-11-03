@@ -42,7 +42,7 @@ int main()
 
     printf("Enter number : \n");
     scanf("%d", &iValue);
-
+    
     iRet = CountTwo(iValue);
 
     printf("Frequency of 2 is : %d\n", iRet);
